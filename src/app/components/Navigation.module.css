@@ -1,5 +1,5 @@
 .header {
-          border: 1px solid #f0f0f0;
+          border: 1px solid #0f0f0f;
           border-radius: 4px;
           padding: 4px;
 }
@@ -11,6 +11,6 @@
 }
 
 .navigation a:hover {
-          color: #f0f0f0;
+          color: #0f0f0f;
           text-decoration: underline;
 }

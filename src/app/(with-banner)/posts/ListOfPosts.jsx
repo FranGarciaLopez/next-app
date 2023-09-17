@@ -19,8 +19,8 @@ export async function ListsOfPosts () {
                                         <Link href='/posts/[id]' as={`/posts/${post.id}`}>
                                                   <h2 style={{ color: '#09f' }}>{ post.title }</h2>
                                                   <p>{ post.body }</p>
-                                                  <LikeButton id={ post.id }/>
                                         </Link>
+                                        <LikeButton id={ post.id }/>
                               </article>
                     )
           )
